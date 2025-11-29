@@ -1,0 +1,36 @@
+body{
+    width: 30em;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2em;
+
+}
+
+header{
+    text-align: center;
+}
+
+#pfp{
+    width: 4em;
+}
+
+li{
+    margin: 0.6em;
+}
+
+hr{
+    border: 0.3px solid rgb(0, 0, 0);
+}
+
+table, th, td {
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+td {
+  border-bottom: 1px solid black;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
