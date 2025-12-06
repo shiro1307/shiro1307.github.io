@@ -3,7 +3,6 @@ body{
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     padding: 2em;
-
 }
 
 header{
@@ -19,18 +18,27 @@ li{
 }
 
 hr{
-    border: 0.3px solid rgb(0, 0, 0);
+    border: 0.3px solid black;
 }
 
 table, th, td {
   border-collapse: collapse;
-  padding: 8px;
+  padding: 5px;
 }
 
 td {
-  border-bottom: 1px solid black;
+  border-bottom: 1.5px solid black;
 }
 
 tr:last-child td {
   border-bottom: none;
+}
+
+th{
+  text-align: left;
+  font-style: italic;
+}
+
+a{
+  color: rgb(168, 110, 254);
 }
