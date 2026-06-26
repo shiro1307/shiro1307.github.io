@@ -1,8 +1,9 @@
 body{
-    max-width: 38em;
+    max-width: 55em;
     font-family:monospace;
     margin: auto;
     padding: 1em;
+    font-size: larger;
 }
 
 #project_list{
@@ -15,9 +16,11 @@ body{
     align-items: flex-start;
 }
 #project_list > li:not(:last-child){
+    /*
     border-bottom: 1px dashed gray;
+    */
     padding-bottom: 0.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 1.2em;
 }
 
 #project_list > li > img {
@@ -27,6 +30,8 @@ body{
     flex-shrink: 0;
     border: 1px solid darkslategray;
     object-fit: cover;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #project_list > li > span {
@@ -42,7 +47,6 @@ body{
     display: inline-block;
     margin-right: 0.3rem;
     font-size: xx-small;
-    color: rgb(90, 90, 90);
     background-color: whitesmoke;
     border: 1px solid lightslategray;
     padding: 2px;
@@ -50,6 +54,14 @@ body{
 
 section{
     /*border: 1px solid gray;*/
-    padding: 0.2em;
-    margin: 0.2em;
+    padding: 0.5em;
+    margin: 1em;
+}
+
+h3{
+    margin-top: 0;
+}
+
+summary{
+    text-decoration: underline;
 }
