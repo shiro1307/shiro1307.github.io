@@ -48,7 +48,7 @@ function loadProjects() {
                         ${project.name}
                     </a>
 
-                    <small>${project.description}</small>
+                    <i>${project.description}</i>
 
                     <div class="tags">
                         ${project.tags.map(tag =>
