@@ -61,10 +61,12 @@ section{
 
 h3, h1{
     margin-top: 0;
+    line-height: 1em;
 }
 
-nav {
+nav > a {
     font-size:xx-large;
+    line-height: 1.3em;
 }
 
 #article_list li {
